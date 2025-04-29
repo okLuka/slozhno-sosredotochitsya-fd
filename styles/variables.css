@@ -14,6 +14,8 @@
   --section-title-color: #FF0070;
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
+  --page-font-family: "IBM Plex mono";
+  --page-font-size: 18px;
   --decoracted-text: block;
   --header-padding: 10px;
   --header-margin-title: 0;
@@ -24,8 +26,8 @@
   --main-section-padding: 10px;
   --main-section-content-column-gap: 20px;
   --main-section-margin-bottom: 15px;
-  --main-section-content-row-margin-top: -16px;
-  --main-section-content-row-margin-bottom: 30px;
+  --main-section-content-row-margin-top: 0;
+  --main-section-content-row-margin-bottom: 15px;
   --main-section-content-row-gap: 20px;
   --main-section-content-row-padding: 10px;
   --main-section-content-img-gap: 10px;
@@ -45,8 +47,8 @@
     --main-section-padding: 20px;
     --main-section-content-column-gap: 20px;
     --main-section-margin-bottom: 20px;
-    --main-section-content-row-margin-top: -40px;
-    --main-section-content-row-margin-bottom: 40px;
+    --main-section-content-row-margin-top: 0px;
+    --main-section-content-row-margin-bottom: 20px;
     --main-section-content-row-gap: 20px;
     --main-section-content-row-padding: 20px;
     --main-section-content-img-gap: 20px;
@@ -60,8 +62,8 @@
       --main-section-padding: 19px;
       --main-section-margin-bottom: 22px;
       --main-section-content-column-gap: 10px;
-      --main-section-content-row-margin-top: -43px;
-      --main-section-content-row-margin-bottom: 42px;
+      --main-section-content-row-margin-top: 10px;
+      --main-section-content-row-margin-bottom: 20px;
       --main-section-content-row-padding: 20px;
       --main-section-content-row-gap: 29px;
 
