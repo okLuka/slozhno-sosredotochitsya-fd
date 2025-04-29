@@ -91,6 +91,7 @@
 
 .header__theme-menu-button:disabled {
   border: 1px solid var(--buttons-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
