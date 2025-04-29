@@ -2,7 +2,7 @@
 
 .page {
   background-image: var(--bg-image);
-  object-position: center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -24,7 +24,7 @@
   position: relative;
 }
 
-.decorated-text{
+.decorated-text {
   position: absolute;
   display: var(--decoracted-text);
   top: var(--decorated-zone-text-margin-top);
@@ -35,7 +35,7 @@
   color: var(--corners-color);
 }
 
-.decorated-text::after{
+.decorated-text::after {
   content: '';
   border: 2px solid var(--accent-color);
   background-color: var(--accent-color);
@@ -45,10 +45,10 @@
   position: absolute;
   margin-left: 10px;
   margin-top: 8px;
-  box-shadow: 0 0 8px 7px rgba(255, 40, 40, 0.6); 
+  box-shadow: 0 0 2px 3px rgba(255, 40, 40, 0.6); 
 }
 
-.decorated-zone::before{
+.decorated-zone::before {
   content: '';
   position: absolute;
   top: var(--decorated-zone-corners);
@@ -59,7 +59,7 @@
   border-right: 2px solid var(--corners-color);
 }
 
-.decorated-zone::after{
+.decorated-zone::after {
   content: '';
   position: absolute;
   bottom: var(--decorated-zone-corners);
@@ -70,11 +70,11 @@
   border-left: 2px solid var(--corners-color);
 }
 
-.header__theme-menu{
+.header__theme-menu {
   justify-self: end;
 }
 
-.header__theme-menu-button{
+.header__theme-menu-button {
   background: transparent;
   border: none;
   text-transform: lowercase;
@@ -134,7 +134,7 @@
 }
 
 /*Section*/
-.content-section{
+.content-section {
   padding: var(--main-section-padding);
   font-family: 'IBM Plex mono', sans-serif;
   display: grid;
@@ -165,6 +165,7 @@
   font-family: 'IBM Plex mono', sans-serif;
   display: grid;
   gap: 10px;
+  padding: var(--main-section-padding);
 }
 
 .content-column {
@@ -201,7 +202,7 @@
   font-family: 'IBM Plex mono', sans-serif;
 }
 
-.content__subtitle-regular{
+.content__subtitle-regular {
   font-size: 18px;
   line-height: 23.4px;
   font-weight: normal;
@@ -216,14 +217,11 @@
 .content__text {
   font-size: 18px;
   color: var(--text-color);
+  font-weight: normal;
 }
 
 .title-decors .content__subtitle {
   color: var(--title-decors-text-color);
-}
-
-.content-section-img {
-  padding: var(--main-section-padding);
 }
 
 .content-section-img-block {
@@ -262,7 +260,7 @@
 
 
 @media (width >= 768px) {
-  .header__title{
+  .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -271,7 +269,7 @@
     justify-self: end;
   }
 
-  .content-section{
+  .content-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-bottom: var(--main-section-margin-bottom);
@@ -314,12 +312,12 @@
     width: 491px;
   }
 
-  .header__theme-menu-list{
+  .header__theme-menu-list {
     display: flex;
     gap: 10px
   }
 
-  .header__theme-menu{
+  .header__theme-menu {
     margin-top: -10px;
     justify-self: center;
     align-self: self-start;

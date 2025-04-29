@@ -12,7 +12,7 @@
   --buttons-color-opacity: rgba(255,0,112, 0.4);
   --accent-color: #FF0070;
   --title-color: #DB00FF;
-  --text-color: #F1B2CE; 
+  --text-color: #F1B2CE;
   --title-decors-text-color: #000028;
   --corners-color: #FF0070;
   --buttons-color: #FF0070;
@@ -21,6 +21,3 @@
   --decoracted-text: block;
 }
 
-.theme-dark .page {
-  
-}
