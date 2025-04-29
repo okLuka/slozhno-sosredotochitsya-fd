@@ -7,12 +7,13 @@
   --buttons-color-opacity: rgba(255,0,112, 0.4);
   --accent-color: #FF0070;
   --title-color: #DB00FF;
-  --text-color: #F1B2CE; 
+  --text-color: #F1B2CE;
   --title-decors-text-color: #000028;
   --corners-color: #FF0070;
   --buttons-color: #FF0070;
   --section-title-color: #FF0070;
   --bg-image: url("../images/cover-image-dark.png");
+  --bg-color: #000028;
   --decoracted-text: block;
   --header-padding: 10px;
   --header-margin-title: 0;
@@ -55,15 +56,13 @@
   }
 
   @media (width >= 1024px) {
-    :root { 
+    :root {
       --main-section-padding: 19px;
-      --main-section-content-column-gap: 14px; 
+      --main-section-content-column-gap: 14px;
       --main-section-content-row-margin-top: -37px;
       --main-section-content-row-margin-bottom: 40px;
       --main-section-content-row-padding: 20px;
       --main-section-content-row-gap: 29px;
     }
   }
-  
-
 }
