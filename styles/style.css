@@ -194,18 +194,20 @@
   font-weight: bold;
 }
 
-.content__subtitle {
+.content__title {
   font-size: inherit;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.subtitle-intro {
-  margin-bottom: 0;
+.content__subtitle {
+  font-size: inherit;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
-.subtitle-normal {
-  font-weight: normal;
+.title-intro {
+  margin-bottom: 0;
 }
 
 .content__text {
